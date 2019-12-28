@@ -1,0 +1,64 @@
+body {
+    font-size: 1.2em;
+    font-family: Lato;
+    width: 100%;
+    margin:0 auto;
+    letter-spacing: 0.5px;   
+   
+    
+}
+
+h1 {
+    
+    text-align: center;
+    font-family: Lato;
+    
+}
+
+#container {
+    
+    padding: 1.5em;
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    
+}
+
+div {
+    line-height: 2.5em;
+}
+
+input[type="text"]{
+    font-size: 1.1em;
+    font-family: Lato;
+    text-align: center;
+}
+
+Label,input {
+    width: 100%;
+    
+}
+
+@media(min-width: 700px){
+}
+
+
+#body {
+width: 60%;    
+background:url(circle.jpg) no-repeat center center fixed;
+background-size:cover;
+margin-top: 100px;
+    }
+
+#container {
+    opacity: 0.8;
+    
+}
+
+label,input {
+    display: inline-block;
+    width: 40%;
+}
+
+div {
+    line-height: 4em;
+}
